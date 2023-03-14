@@ -1,5 +1,3 @@
-from machine import I2C, Pin, PWM
-from pico_i2c_lcd import I2cLcd
 import time
 import dht11
 i2c = I2C(0, sda=Pin(8), scl=Pin(9), freq=10000)
